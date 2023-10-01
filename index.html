@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr.Lov3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fb">
+         <div class="grid-container">
+            <div class="flex">
+                <h1>Love calculator</h1>
+                <h2>Welcome to the chemistry expert Dr.Love</h2>
+                <p class="p">Just give us  your name and your loved ones name and we'll check the compatibility between you  </p>
+            </div>
+             <div>
+                <label class="p" for="Name">Name of person 1:</label>
+                <input type="text" id="Name" name="Name" placeholder="Name of Person 1">
+                <label class="p" for="Name">Name of person 2:</label>
+                <input type="text " id="NAme" placeholder="Name of Person 2">
+             
+                <button  onclick = "calculate()" > Calculate!</button>
+             </div>
+        </div>
+   </div>
+</body>
+</html>
+
+<script>
+    function calculate(){
+        var n= Math.random();
+        n= Math.floor(n*100)+1;
+
+        alert("This is your percentage "+ n);
+    }
+</script>
